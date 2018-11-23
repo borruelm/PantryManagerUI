@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import SignIn from './SignIn';
 //import MainJSX from "./main.jsx"
 import "@babel/polyfill";
 import axios from "axios";
@@ -33,6 +34,7 @@ class Main extends Component{
     return(
       <div>
         <h1>This is the main component</h1>
+        <SignIn/>
       </div>
     );
   }

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 //import MainJSX from "./main.jsx"
 import "@babel/polyfill";
 import axios from "axios";
+import MainJSX from "./MainJSX.jsx";
 
 class Main extends Component{
 
@@ -33,6 +34,7 @@ class Main extends Component{
     return(
       <div>
         <h1>This is the main component</h1>
+        <MainJSX />
       </div>
     );
   }

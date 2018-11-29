@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "@babel/polyfill";
 
-const MainJSX = () =>{
+let MainJSX = () =>{
   return <p>MAINJSX CODE</p>;
 }
 
